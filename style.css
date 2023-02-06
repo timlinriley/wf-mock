@@ -1,0 +1,513 @@
+.menuContainer{
+    /* border: solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: #003200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+     /* border: solid magenta; */ 
+    width: 15%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: solid white;
+}
+.menu{
+    /* border: solid blue; */
+    width: 55%;
+}
+.searchbar{
+    /* border: solid yellow; */
+    width: 25%;
+}
+.listLogin{
+    /* border: solid green; */
+    width: 10%;
+}
+.menulist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top: 20px;
+}
+.menuItem{
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+.menuItem:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
+.searchInput{
+    width:90%;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+}
+.listLogin{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.login{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.login:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 8px;
+}
+.listText{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.listText:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+    
+}
+.listIcon{
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+
+/* End header from Abdel above. Begin homepage from Riley Below */
+
+
+.findBar{
+    height: 8vh;
+    display:flex;
+}
+
+
+
+.find{
+    width: 100%;
+    text-align: right;
+    font-weight: 400;
+    color:#2e2d2b;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f7f5;
+    }
+/* .arrowPic{
+    background-size: cover;
+    height: 4vh;
+    padding-top: 1.5vh; 
+    background-color: #f8f7f5;   
+} */
+a{
+    text-decoration: none;
+    color:#2e2d2b;
+}
+a:hover{
+    border-bottom:solid #2e2d2b;
+}
+.stacked{
+    height: 81vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+.partyImg{
+    background-image: url(https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/21/00/b85f45e54ca4b11380ddc66bbd06/2023-cen-feba-wk1-hpmarquee-gameday-image-3000x1200._TTW_._CR0,0,3000,1200_._SR2000,800_._QL100_.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position:absolute;
+}
+.partyAd{
+    background-color: #ffffff;
+    width: 47%;
+    height: 50vh;
+    z-index: 3;
+    position: absolute;
+    margin-top: 14vh;
+    
+}
+.steals{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+.adP{
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.salesButton  {
+    margin-left: 10%;
+    height: 3em;
+    width: 8em;
+    background-color:#003200;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fine{
+    margin-left: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:smaller;
+    margin-bottom: 1%;
+}
+.buttons{
+    width: 100%;
+    height: 16vh;
+    background-color: #f8f7f5;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.buttonBar{
+    height: 40%;
+    margin-top: 2.5%;
+    background-color: #f8f7f5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    border-width:thin;
+    border-radius: 3%;
+    text-align:center;
+}
+.valentine{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+.valentinePic{
+    background-image:url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/5e/3c/69aaa3c242f995b2ec8e74564dfd/23-cen-feb-vday-elevatedevent-web-ccoverlay._TTW_._CR0,0,2160,1296_._SR1500,900_._QL100_.jpg");
+    background-size:cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    height:90%;
+    width: 70%;
+    z-index: 2;
+    position:absolute;
+}
+.valentineText{
+    background-color: #ffffff;
+    width: 45%;
+    height: 50vh;
+    z-index: 3;
+    position: absolute;
+    margin-top: 31%;
+}
+
+.butLink:hover{
+    border-bottom:solid #2e2d2b;
+}
+.salelink{
+    color: white;
+}
+.salelink:hover{
+    border-bottom: solid white;
+ 
+}
+
+.saleBanner{
+    height: 60vh;
+    margin-top: 10%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.salesBox1{
+    height: 50vh;
+    width: 23%;
+    margin-top: 2%;
+}
+
+.saleImage{
+    height: 73%;
+    width: 100%;
+}
+
+.saleText{
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.roses{
+    display:flex;
+    height: 70vh;
+    width: 95%;
+    position: relative;
+}
+
+.rosesText{
+width:40%;
+margin-top: 5%;
+margin-left: 12%;
+}
+
+.jicama1{
+    background-color: #f8f7f5;
+    height:100%;
+    position: absolute;
+    z-index:-1;
+    width: 40%;
+    margin-left:24%;
+}
+
+.rosesImg{
+    background-image: url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/2a/60/299172d443f68f97c18460715982/23-cen-feb-vday-elevatedevent-roseskrm-web-contentsquare._TTW_._CR0,0,1440,1440_._SR1000,1000_._QL100_.jpg");
+    height:100%;
+    width: 50%;
+    margin-left: 10%;
+    background-size: cover;
+}
+.roseh2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 4%;
+   
+}
+.sandwich{
+height: 110vh;
+position: relative;
+display: flex;
+margin-top: 20vh;
+
+
+}
+.jicama{
+    background-color: #f8f7f5;
+    height:100%;
+    position: absolute;
+    z-index:-1;
+    width: 66%;
+    margin-left:7%;
+    margin-right: 10%; 
+}
+
+.burger{
+    height: 90%;
+    width:33%;
+    margin-left:15%;
+    background-image: url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/50/b0/69bce35d45b2bc3a675a9084e73e/2023-ld2g-sandwich-1080x1440._TTW_._CR0,0,1080,1440_._SR800,1067_._QL100_.jpg");
+    background-size: cover;
+
+}
+.app{
+    height:100%;
+    width:38%;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}    
+
+.iphone{
+    max-height: 50%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.purpose{
+    margin-top:15vh;
+    background-image: url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/7d/9f/300c68a14ca5a5602acb6bb06ade/23-wfm-q1-brandmoment-shutterstock-342808412._TTW_._CR0,2,4896,1958_._SR1800,720_._QL100_.jpg");
+    color:white;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.farmtext{
+    color:white;
+    text-align: center;
+    font-weight:900;
+    padding-top: 50vh;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primeAd{
+height: 140vh;
+position: relative;
+display:flex;
+margin-top: 5%;
+}
+
+.lettuce{
+position:absolute;
+z-index: -1;
+background-image: url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/fb/0e/601957a4498aaf1c7652f0c53197/1-hero-white._TTW_._CR0,0,1440,1800_._SR720,900_._QL100_.jpg");
+background-size: cover;
+width:40%;
+height: 70%;
+margin-left: 6%;
+}
+
+.jicama2{
+    background-color: #f8f7f5;
+    height:100%;
+    position: absolute;
+    z-index:-1;
+    width: 40%;
+    margin-left: 60%;
+}
+
+.primetext{
+    width: 33%;
+    background-color: white;
+    height: 40%;
+    margin-top:15%;
+    margin-left:5%;
+}
+
+.earn{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 25%;
+    height: 33%;
+    margin-top: 18%;
+    margin-left: 9%;
+}
+
+.savetime{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width:24%;
+height: 40%;
+margin-top: 9%;
+margin-left: 2%;
+}
+.discoverbanner{
+    text-align: center;
+    margin-top: 20vh;
+}
+.disc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.discP{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size:15px;
+}
+.discover{
+    display:flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+.boxes{
+    height: 80%;
+    width: 30%;
+}
+.boxesimg  {
+    width:100%;
+    height: 80%;
+}
+.bullet{
+    display:flex;
+}
+.boxesP{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight:600;
+}
+
+
+/* FOOTER FROM ABDEL */
+footer{
+    display: grid;
+    margin-top: vh;
+    background-color: #003200;
+}
+/* .footerLogo{
+    border: solid black;
+​} */
+.mapfooter{
+    /* border: solid magenta; */
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenu{
+    height: 12vh;
+    background-color: #025c02;
+    color: white;
+}
+.map1{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    padding: 2%;
+}
+.map2{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    padding: 2%;
+}
+.map3{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+}
+.map4{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.map1title{
+    font-size: 1.5em;
+}
+.listMap1{
+    list-style: none;
+    padding-left: 0;
+   
+}
+.listMap1Item{
+    padding: 3px;
+    
+}
+.emailsign{
+    background-color: #003200;
+    color: white;
+    padding: 5%;
+    width: 60%;
+    border-color: white;
+    font-weight: bold;
+}
+.footMenuList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footmenuItem{
+    display: inline;
+    width: 7%;
+    font-size: .9em;
+}
+.longfootmenuItem{
+    width: 25%;
+}
